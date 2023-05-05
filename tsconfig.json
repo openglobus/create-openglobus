@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "ESNext",                                  /* Specify what module code is generated. */
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": true
+  }
+}
