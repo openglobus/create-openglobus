@@ -19,7 +19,10 @@
   },
   "scripts": {
     "start": "ts-node --esm src/index.ts",
-    "build": "tsc && shx rm -rf dist/templates && shx cp -r src/templates dist"
+    "build": "tsc && shx rm -rf dist/templates && shx cp -r src/templates dist",
+
+    "install:reactts": "cd src/templates/react+typescript && npm install",
+    "postinstall": "npm run install:reactts"
   },
   "repository": {
     "type": "git",
