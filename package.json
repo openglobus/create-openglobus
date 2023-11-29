@@ -1,6 +1,6 @@
 {
   "name": "create-openglobus",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Template for Openglobus",
   "main": "index.js",
   "type": "module",
@@ -25,7 +25,7 @@
     "type": "git",
     "url": "git+https://github.com/pavletto/globe.git"
   },
-  "author": "pavletto",
+  "author": "Pavel Sukhodolski",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pavletto/globe/issues"
