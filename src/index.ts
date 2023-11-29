@@ -1,13 +1,12 @@
 #!/usr/bin/env node
 
 import fs from 'fs';
-import path from 'path';
+import path, {dirname} from 'path';
 import inquirer from 'inquirer';
 import chalk from 'chalk';
-import {render} from './utils/template.ts'
 import shell from 'shelljs';
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
+import {fileURLToPath} from 'url';
+import ejs from 'ejs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -90,7 +89,7 @@ function createDirectoryContents(templatePath: string, projectName: string) {
         if (stats.isFile()) {
             // read file content and transform it using template engine
             let contents = fs.readFileSync(origFilePath, 'utf8');
-            contents = render(contents, {projectName});
+            contents = ejs.render(contents, {projectName});
             // write file to destination folder
             const writePath = path.join(CURR_DIR, projectName, file);
             fs.writeFileSync(writePath, contents, 'utf8');
