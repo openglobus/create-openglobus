@@ -1,6 +1,6 @@
 {
   "name": "create-openglobus",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "Template for Openglobus",
   "main": "index.js",
   "type": "module",
@@ -23,14 +23,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pavletto/globe.git"
+    "url": "git+https://github.com/openglobus/create-openglobus.git"
   },
   "author": "Pavel Sukhodolski",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pavletto/globe/issues"
+    "url": "https://github.com/openglobus/create-openglobus/issues"
   },
-  "homepage": "https://github.com/pavletto/globe#readme",
+  "homepage": "https://github.com/openglobus/create-openglobus#readme",
   "dependencies": {
     "ejs": "^3.1.9",
     "inquirer": "^9.2.12",
