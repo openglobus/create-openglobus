@@ -1,6 +1,6 @@
 {
   "name": "create-openglobus",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Template for Openglobus",
   "main": "index.js",
   "type": "module",
