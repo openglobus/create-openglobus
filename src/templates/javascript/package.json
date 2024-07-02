@@ -9,9 +9,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^5.0.4"
+    "vite": "^5.3.2"
   },
   "dependencies": {
-    "@openglobus/og": "^0.18.5"
+    "@openglobus/og": "^0.20.2"
   }
 }
